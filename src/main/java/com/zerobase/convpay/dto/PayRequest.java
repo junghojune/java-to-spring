@@ -11,20 +11,20 @@ public class PayRequest {
     // 편의점 종류
     ConvenienceType convenienceType;
     // 결제 금액
-    Integer payAccount;
+    Integer payAmount;
 
-    public PayRequest(PayMethodType payMethodType, ConvenienceType convenienceType, Integer payAccount) {
+    public PayRequest(PayMethodType payMethodType, ConvenienceType convenienceType, Integer payAmount) {
         this.convenienceType = convenienceType;
-        this.payAccount = payAccount;
+        this.payAmount = payAmount;
         this.payMethodType = payMethodType;
     }
 
-    public Integer getPayAccount() {
-        return payAccount;
+    public Integer getPayAmount() {
+        return payAmount;
     }
 
-    public void setPayAccount(Integer payAccount) {
-        this.payAccount = payAccount;
+    public void setPayAmount(Integer payAmount) {
+        this.payAmount = payAmount;
     }
 
     public ConvenienceType getConvenienceType() {

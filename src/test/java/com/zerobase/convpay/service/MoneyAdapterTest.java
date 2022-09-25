@@ -15,7 +15,7 @@ class MoneyAdapterTest {
         //when
         MoneyUseResult moneyUseResult = moneyAdapter.use(payAmount);
 
-        //then
+        //thenx`
         assertEquals(moneyUseResult.USE_SUCCESS, moneyUseResult);
     }
 
